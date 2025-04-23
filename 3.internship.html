@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Information</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .dropdown {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .dropdown:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown button {
+            width: 100%;
+            padding: 15px;
+            background-color: #3498DB;
+            color: white;
+            font-size: 1.1em;
+            font-weight: 500;
+            border: none;
+            border-radius: 8px 8px 0 0;
+            text-align: left;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown button:hover {
+            background-color: #2980B9;
+        }
+
+        .dropdown-content {
+            display: none;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        .dropdown-content a {
+            color: #3498DB;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .dropdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 1em;
+        }
+
+        .footer a {
+            color: #3498DB;
+            text-decoration: none;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+                padding: 15px;
+            }
+
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .footer {
+                font-size: 0.9em;
+                padding: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    Scholarship Information
+</header>
+
+<div class="container">
+    <!-- AICTE PG (GATE/GPAT) Scholarship -->
+    <div class="dropdown">
+        <button>AICTE PG (GATE/GPAT) Scholarship</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 12,400 per month</p>
+            <p><strong>Eligibility:</strong> Full-time GATE/GPAT qualified students admitted to ME/MTech/MArch/MPharm courses in AICTE approved institutions.</p>
+            <p><strong>Application Period:</strong> July – September</p>
+           
+        </div>
+    </div>
+
+    <!-- Prime Minister’s Research Fellowship Scheme -->
+    <div class="dropdown">
+        <button>Prime Minister’s Research Fellowship Scheme</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 80,000 per month</p>
+            <p><strong>Eligibility:</strong> BTech/MTech/MSc students from IISCs/IITs/NITs/IISER/IIITs who have applied for a PhD programme.</p>
+            <p><strong>Application Period:</strong> May and December</p>
+        
+        </div>
+    </div>
+
+    <!-- Ramanujan Fellowship 2020 -->
+    <div class="dropdown">
+        <button>Ramanujan Fellowship 2020</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 1,35,000 per month</p>
+            <p><strong>Eligibility:</strong> Scientists and engineers below 40 years of age with a PhD or Master’s in Engineering/Technology.</p>
+            <p><strong>Application Period:</strong> Available throughout the year</p>
+           
+        </div>
+    </div>
+
+    <!-- Keep Smiling Foundation Scholarship for Engineering -->
+    <div class="dropdown">
+        <button>Keep Smiling Foundation Scholarship for Engineering</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 30,000 per year for 4 years</p>
+            <p><strong>Eligibility:</strong> Minimum 60% in Class 12, enrolled in any recognised undergraduate engineering programme, annual family income < Rs 5 lakh.</p>
+            <p><strong>Application Period:</strong> January – July</p>
+            
+        </div>
+    </div>
+
+    <!-- North-South Foundation Scholarship -->
+    <div class="dropdown">
+        <button>North-South Foundation Scholarship</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 25,000 per year</p>
+            <p><strong>Eligibility:</strong> Top 10% in 10th and 12th, CET/NEET/JEE ranks in their state, family income < Rs 1 lakh.</p>
+            <p><strong>Application Period:</strong> October – November 2020</p>
+            
+        </div>
+    </div>
+
+    <!-- Siemens Scholarship Program -->
+    <div class="dropdown">
+        <button>Siemens Scholarship Program</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Tuition fee reimbursement, allowances for books, stationery, hostel charges</p>
+            <p><strong>Eligibility:</strong> First-year students of government colleges with a minimum of 60% in Class 10 and 50% in Class 12.</p>
+            <p><strong>Application Period:</strong> 8-31 August 2020</p>
+            
+        </div>
+    </div>
+
+    <!-- Central Sector Scholarship Scheme -->
+    <div class="dropdown">
+        <button>Central Sector Scholarship Scheme</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 20,000 annually</p>
+            <p><strong>Eligibility:</strong> Top 20 percentile in Class 12 exams, family income < Rs 8 lakh per annum.</p>
+            <p><strong>Application Period:</strong> July – September</p>
+            
+        </div>
+    </div>
+
+    <!-- Post Graduate Scholarship for SC/ST Students -->
+    <div class="dropdown">
+        <button>Post Graduate Scholarship For SC/ST Students</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 7,500 per month for MTech/ME</p>
+            <p><strong>Eligibility:</strong> SC/ST students pursuing professional postgraduate courses.</p>
+            <p><strong>Application Period:</strong> Available throughout the year</p>
+            
+        </div>
+    </div>
+
+    <!-- Post Graduate Merit Scholarship for University Rank Holders -->
+    <div class="dropdown">
+        <button>Post Graduate Merit Scholarship for University Rank Holders</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 3,100 per month</p>
+            <p><strong>Eligibility:</strong> First or second rank holders in graduation exams.</p>
+            <p><strong>Application Period:</strong> December – January</p>
+       
+        </div>
+    </div>
+
+    <!-- ONGC Merit Scholarship -->
+    <div class="dropdown">
+        <button>ONGC Merit Scholarship for OBC/SC/ST/General Students</button>
+        <div class="dropdown-content">
+            <p><strong>Amount:</strong> Rs 48,000 annually</p>
+            <p><strong>Eligibility:</strong> Engineering/Medical/Geology/Geophysics students, family income < Rs 4.5 lakh per annum.</p>
+            <p><strong>Application Period:</strong> Available throughout the year</p>
+           
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 Scholarship Information. All Rights Reserved. | <a href="i1.html">Contact Us</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMAMIT Achievements</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .logo-container {
+            background-color: white;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .section-box {
+            flex: 1 1 45%;
+            min-width: 300px;
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+
+        .section-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            background-color: #f0f5ff;
+        }
+
+        .section-title {
+            color: #003366;
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #003366;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-title::after {
+            content: "→";
+            color: #003366;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .content-item {
+            margin-bottom: 15px;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .content-item:hover {
+            background: #e9ecef;
+        }
+
+        .item-title {
+            font-weight: 600;
+            color: #003366;
+            margin-bottom: 5px;
+        }
+
+        .item-details {
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .section-box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <!-- Fixed logo path - use one of these options: -->
+            <!-- Option 1: Local file (place logo.webp in same folder) -->
+            <img src="C:\Users\adiga\OneDrive\Desktop\logo.webp"" alt="NMAMIT Logo" class="logo">
+            
+             </div>
+        <h1>NMAMIT Achievements Portal</h1>
+        <p>Celebrating academic excellence</p>
+    </header>
+
+    <div class="container">
+        <!-- Scholarships Section -->
+        <a href="3.internship.html" class="section-box">
+            <h2 class="section-title">Scholarships</h2>
+            
+            <div class="content-item">
+                <div class="item-title">Merit Scholarship</div>
+                <div class="item-details">Awarded to top 5% of students with outstanding academic performance</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Research Fellowship</div>
+                <div class="item-details">For students engaged in innovative research projects</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Sports Scholarship</div>
+                <div class="item-details">Recognizing excellence in sports at state/national level</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Need-Based Grant</div>
+                <div class="item-details">Financial assistance for economically disadvantaged students</div>
+            </div>
+        </a>
+
+        <!-- Seat Holders Section -->
+        <a href="portal.html" class="section-box">
+            <h2 class="section-title">Seat Holders</h2>
+            
+            <div class="content-item">
+                <div class="item-title">University Toppers</div>
+                <div class="item-details">Students securing top positions in VTU examinations</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Department Rankers</div>
+                <div class="item-details">Top performers in each engineering discipline</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Semester Achievers</div>
+                <div class="item-details">Students with perfect SGPA in recent semesters</div>
+            </div>
+            
+            <div class="content-item">
+                <div class="item-title">Research Pioneers</div>
+                <div class="item-details">Students with published papers in reputed journals</div>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 NMAM Institute of Technology. All rights reserved.</p>
+    </footer>
+</body>
+</html>

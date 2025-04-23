@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMAMIT Engineering Students Information</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .intro {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .student-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .student-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .student-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .student-photo {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .student-info {
+            padding: 20px;
+        }
+        
+        .student-name {
+            font-size: 1.4rem;
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .student-id {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .student-detail {
+            margin-bottom: 8px;
+        }
+        
+        .student-detail strong {
+            color: #3498db;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .highlight {
+            background-color: #fffde7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .college-name {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>NMAMIT Engineering Students Information</h1>
+    
+    <div class="intro">
+        <p>This page displays information about students enrolled in various NMAMIT (Nitte Mahalinga Adyantaya Memorial Institute of Technology) engineering colleges across the country. <span class="highlight">Last updated: June 2024</span></p>
+    </div>
+    
+    <div class="student-container">
+        <!-- Student Card 1 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\f53a20fe-1383-4f06-99d9-6d195833466d.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Adithya Adiga</h3>
+                <p class="student-id">ID: NNM24IS010</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 8.9/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 2 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\3eac66eb-6d7b-449a-80b5-ccf20a7167f2.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Aditya P Naik</h3>
+                <p class="student-id">IDNNM24IS011 n</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 9.2/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 3 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\29c2bb70-b2a4-43ea-ac09-2b1b95aca616.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Adish Jain</h3>
+                <p class="student-id">ID: NNM24IS009</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1th Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 8.5/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 4 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\36d28b6e-4381-4596-bc9e-dff0fc38785a.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Aishwarya Shetty</h3>
+                <p class="student-id">ID: NNM24IS012</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 9.0/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 5 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\10e46686-0432-4def-9828-4177ec0624f5.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Ajay Shetty </h3>
+                <p class="student-id">ID: nnm24is013</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 8.7/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 6 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\7e35eeb3-a99f-4d2a-bcc1-54126c133827.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Abhinav</h3>
+                <p class="student-id">ID:NNM24IS015</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 9.1/10</p>
+            </div>
+        </div>
+        
+        <!-- Student Card 7 -->
+        <div class="student-card">
+            <img src="C:\Users\adiga\OneDrive\Desktop\93011b88-27d6-49b6-8a04-1d18912c17c5.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3 class="student-name">Adarsh Jain</h3>
+                <p class="student-id">ID: NNM24IS016</p>
+                <p class="student-detail"><strong>College:</strong> <span class="college-name">NMAMIT </span></p>
+                <p class="student-detail"><strong>Branch:</strong> Information Science</p>
+                <p class="student-detail"><strong>Year:</strong> 1st Year</p>
+                <p class="student-detail"><strong>CGPA:</strong> 8.8/10</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer>
+        <p>© 2023 NMAMIT Student Portal | Data is for demonstration purposes only</p>
+        <p>Contact: info@NMAMIT.edu.in | Helpline: 1800-123-4567</p>
+    </footer>
+</body>
+</html>

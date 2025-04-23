@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMAMIT Scholarship Info Login</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #003366;
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px; /* Normal size logo */
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .login-container h1 {
+            font-size: 22px;
+            margin: 0 0 20px 0;
+            color: #003366;
+        }
+
+        input[type="email"], 
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004c99;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .footer a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <!-- Use one of these logo options: -->
+        <!-- Option 1: Local file (place logo.webp in same folder as HTML) -->
+        <img src="C:\Users\adiga\OneDrive\Desktop\logo.webp" alt="NMAMIT Logo" class="logo">
+        
+       
+        <h1>NMAMIT Scholarship Info Login</h1>
+        
+        <form action="fp.html" method="GET">
+            <div class="form-group">
+                <input type="email" placeholder="College Email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
+
+            <input type="submit" value="Login">
+        </form>
+
+        <div class="footer">
+            <p>Don't have an account? <a href="1.register.html">Register here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
